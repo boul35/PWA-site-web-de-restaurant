@@ -1,4 +1,40 @@
-.test {
+.fa-location-dot {
 
-    color: rebeccapurple;
+    padding: 1rem;
 }
+
+.fa-phone {
+
+    padding: 1rem;
+}
+
+
+a {
+    text-decoration:none;
+ }
+
+
+ footer {
+
+    overflow: auto;
+ }
+
+ .social-link {
+
+    padding: 1rem;
+ }
+
+
+.carousel-item {
+  height: 65vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.item img {
+    width:100%;
+  }
