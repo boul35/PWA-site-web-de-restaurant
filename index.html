@@ -16,7 +16,8 @@
     <meta name="theme-color" content="#2F3BA2" />
     <link rel="apple-touch-icon" href="/images/icons/maskable_icon_x512.png">
     <meta name="description" content="Burger Shop website web apple-mobile-web-app-capable">
-    <link rel="stylesheet" href="styles/css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/normalize.css"/>
+	<link rel="stylesheet" type="text/css" href="css/style.css"/>
     <title>Restaurant Le Bistro à Burger</title>
     
     <script src="https://kit.fontawesome.com/742e442523.js" crossorigin="anonymous"></script>
@@ -116,20 +117,20 @@
             </div>
         </div>
     </section>
-    <main class="restaurant parallax ">
+    <main class="restaurant  ">
         <div class="container">
             
                 <div class="row">
 
-                    <div class="col-xl-6 col-sm-12">
-                        <h2 class="restaurant__text">Les meilleurs Burger en ville !</h2>
-                        <p class="restaurant__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas assumenda aliquam doloribus
+                    <div class="col-xl-6 col-sm-12 ">
+                        <h2 class="restaurant__text d-md-flex align-items-md-center justify-content-md-center justify-content-xl-start">Les meilleurs Burgers en ville !</h2>
+                        <p class="restaurant__text d-md-flex align-items-md-center justify-content-md-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas assumenda aliquam doloribus
                             accusantium. Assumenda velit doloribus, tempora ea est error voluptatibus exercitationem?
                             Eius
                             soluta, eveniet nobis quidem illo laboriosam a.</p>
                     </div>
-                    <div class="col-xl-6 col-sm-12">
-                        <img src="./assets/images/restaurant.jpg" alt="Salle à diner du restaurant"></div>
+                    <div class="col-xl-6 col-sm-12 d-md-flex align-items-md-center justify-content-md-center">
+                        <img src="./assets/images/restaurant.jpg" alt="Salle à diner du restaurant" >
                 </div>
             
         </div>
@@ -137,54 +138,54 @@
     <section class="chefs">
         <div class="container">
             <div class="row row-cols-1 row-cols-md-3 g-4">
-                <div class="col">
+                <div class="col-xl-4  col-md-6">
                   <div class="card">
-                    <img src="..." class="card-img-top" alt="...">
+                    <img src="assets/images/chef1.jpg" class="card-img-top" alt="Photo de nos cuisiniers">
                     <div class="card-body">
                       <h5 class="card-title">Card title</h5>
                       <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                     </div>
                   </div>
                 </div>
-                <div class="col">
+                <div class="col-xl-4  col-md-6">
                   <div class="card">
-                    <img src="..." class="card-img-top" alt="...">
+                    <img src="assets/images/chef2.jpg" class="card-img-top" alt="Photo de nos cuisiniers">
                     <div class="card-body">
                       <h5 class="card-title">Card title</h5>
                       <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                     </div>
                   </div>
                 </div>
-                <div class="col">
+                <div class="col-xl-4  col-md-6">
                   <div class="card">
-                    <img src="..." class="card-img-top" alt="...">
+                    <img src="assets/images/chef3.jpg" class="card-img-top" alt="Photo de nos cuisiniers">
                     <div class="card-body">
                       <h5 class="card-title">Card title</h5>
                       <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
                     </div>
                   </div>
                 </div>
-                <div class="col">
+                <div class="col-xl-4  col-md-6">
                   <div class="card">
-                    <img src="..." class="card-img-top" alt="...">
+                    <img src="assets/images/chef4.jpg" class="card-img-top" alt="Photo de nos cuisiniers">
                     <div class="card-body">
                       <h5 class="card-title">Card title</h5>
                       <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                     </div>
                   </div>
                 </div>
-                <div class="col">
+                <div class="col-xl-4 col-md-6">
                     <div class="card">
-                      <img src="..." class="card-img-top" alt="...">
+                      <img src="assets/images/chef5.jpg" class="card-img-top" alt="Photo de nos cuisiniers">
                       <div class="card-body">
                         <h5 class="card-title">Card title</h5>
                         <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                       </div>
                     </div>
                   </div>
-                  <div class="col">
+                  <div class="col-xl-4  col-md-6">
                     <div class="card">
-                      <img src="..." class="card-img-top" alt="...">
+                      <img src="assets/images/chef6.jpg" class="card-img-top" alt="Photo de nos cuisiniers">
                       <div class="card-body">
                         <h5 class="card-title">Card title</h5>
                         <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -200,21 +201,19 @@
             <div class="row">
                 <div class="social-link col-xl-4 col-md-4 p-sm-2  ">
                     <p>Suivre</p>
-                    <i class="fa-brands fa-facebook"></i>
-                    <i class="fa-brands fa-twitter"></i>
-                    <i class="fa-brands fa-instagram"></i>
-                    <i class="fa-brands fa-youtube"></i>
+                   <a href="facebook.com"><i class="fa-brands fa-facebook"></i></a> 
+                    <a href="twitter.com"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="instagram.com"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="youtube.com"><i class="fa-brands fa-youtube"></i></a>
 
                 </div>
-                <div class="contact col-xl-4 col-md-4 d-flex justify-content-xl-center align-items-xl-center p-sm-2 p-xl-3     ">
-                    <i class="fa-solid fa-phone  p-1">
-                        <a href="tel:+4733378901">555-555-5555</a>
-                    </i>
-                    <i class="fa-solid fa-at p-1 "><a href="mailto:webmaster@example.com">info@restaurant.com</a></i>
+                <div class="contact  col-xl-4 col-md-4 d-flex justify-content-xl-center align-items-xl-center p-sm-2     ">
+                   <i class="fa-solid fa-phone p-xl-2  p-sm-1 "><a href="tel:555-555-5555" >  555-555-5555</a></i>
+                    <i class="fa-solid fa-envelope p-xl-2 p-sm-1"> <a href="mailto:webmaster@example.com"> info@restaurant.com</a></i>
                 </div>
-                <div class="adresse col-xl-4 col-md-4 d-flex justify-content-xl-center align-items-xl-center p-sm-2  ">
+                <div class="adresse col-xl-4 col-md-12 d-flex justify-content-xl-center align-items-xl-center p-sm-2   ">
 
-                    <p><i class="fa-solid fa-location-dot ">1234 rue Champagne</p></i>
+                    <p><i class="fa-solid fa-location-dot ">  1234 rue Champagne</p></i>
                 </div>
             </div>
 

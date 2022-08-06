@@ -52,28 +52,16 @@
   border-color: rgb(114, 42, 10);
 }
 
-a {
-  text-decoration: none;
-}
-
 .restaurant {
   padding-top: 2rem;
   padding-bottom: 2rem;
   background: radial-gradient(circle, rgb(40, 43, 58) 0%, rgb(35, 38, 53) 47%, rgb(27, 31, 44) 98%);
-  width: 100%;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  transform-style: preserve-3d;
-  overflow-x: hidden;
-  overflow-y: auto;
-  perspective: 2px;
 }
 
 footer {
-  background-color: #b6310c;
+  background-color: #5F4664;
   width: auto;
+  color: #5ad1ef;
 }
 
 .restaurant__text {
@@ -96,4 +84,54 @@ h1, h2, h3, h4, h5 {
 .carousel-inner > .item > img, .carousel-inner > .item > a > img {
   width: 100%;
 }
-/*# sourceMappingURL=style.css.map */
+
+.fa-facebook:hover {
+  color: #4267B2;
+}
+
+.fa-twitter:hover {
+  color: #1DA1F2;
+}
+
+.fa-instagram:hover {
+  color: #E4405F;
+}
+
+.fa-youtube:hover {
+  color: #CD201F;
+}
+
+a, a:hover, a:focus, a:active {
+  text-decoration: none !important;
+  color: inherit !important;
+}
+
+.fa-envelope:hover {
+  color: white;
+}
+
+.fa-phone:hover {
+  color: white;
+}
+
+.parallax {
+  /* The image used */
+  /* The image used */
+  background-image: url(../assets/images/background1.png);
+  /* Full height */
+  height: 80vh;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parrallax__text {
+  display: grid;
+  place-content: center;
+  position: absolute;
+  z-index: 1000;
+  top: 200px;
+  left: 200px;
+}/*# sourceMappingURL=style.css.map */
