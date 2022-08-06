@@ -125,13 +125,12 @@ a, a:hover, a:focus, a:active {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-}
-
-.parrallax__text {
   display: grid;
   place-content: center;
-  position: absolute;
-  z-index: 1000;
-  top: 200px;
-  left: 200px;
+  padding: 0%;
+  width: 100%;
+}
+
+#potatoe {
+  width: 50rem;
 }/*# sourceMappingURL=style.css.map */
