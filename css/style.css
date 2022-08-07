@@ -1,7 +1,24 @@
+#form {
+  border-radius: 4px;
+  font-size: 12px;
+}
+
+#form h1 {
+  color: #0f2027;
+  text-align: center;
+}
+
+#form button {
+  width: 100%;
+  color: white;
+  background-color: rgb(41, 57, 194);
+  border: none;
+  border-radius: 4px;
+}
+
 .input-control {
   display: flex;
   flex-direction: column;
-  padding: 0.5rem;
 }
 
 .input-control input {
@@ -17,39 +34,28 @@
   outline: 0;
 }
 
-.input-control .errorMessage {
-  color: pink;
-  font-size: 9px;
-  height: 13px;
-}
-
-.form {
-  width: 33%;
-  border-radius: 2px;
-  background-color: rgb(219, 213, 213);
-  margin: 2rem;
-  padding: 2rem;
-  display: grid;
-  place-content: center;
-}
-
-.submit {
-  width: 100%;
-  border-radius: 3px;
-}
-
-.input-control .errorMessage {
-  color: red;
-  font-size: 9px;
-  height: 13px;
-}
-
 .input-control.success input {
-  border-color: green;
+  border-color: #09c372;
 }
 
 .input-control.error input {
-  border-color: rgb(114, 42, 10);
+  border-color: #ff3860;
+}
+
+.input-control .error {
+  color: #ff3860;
+  font-size: 9px;
+  height: 13px;
+}
+
+textarea {
+  width: 32rem;
+  height: 20rem;
+  border: 2px solid #f0f0f0;
+  border-radius: 4px;
+  display: block;
+  font-size: 12px;
+  padding: 10px;
 }
 
 .restaurant {
@@ -161,5 +167,4 @@ a, a:hover, a:focus, a:active {
   margin-top: 2rem;
   margin-bottom: 2rem;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-}
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */

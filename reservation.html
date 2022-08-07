@@ -10,13 +10,14 @@
     <meta name="description" content="Burger Restaurant website web apple-mobile-web-app-capable">
 
     <!-- Add iOS meta tags and icons -->
-<meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-status-bar-style" content="black">
-<meta name="apple-mobile-web-app-title" content="Weather PWA">
-<meta name="theme-color" content="#2F3BA2" />
-<link rel="apple-touch-icon" href="/images/icons/maskable_icon_x512.png">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="Weather PWA">
+    <meta name="theme-color" content="#2F3BA2" />
+    <link rel="apple-touch-icon" href="/images/icons/maskable_icon_x512.png">
     <meta name="description" content="Burger Shop website web apple-mobile-web-app-capable">
-    <link rel="stylesheet" href="styles/css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
     <title>Restaurant Le Bouche à Oreille</title>
     <script src="https://kit.fontawesome.com/742e442523.js" crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -62,35 +63,50 @@
             </div>
         </nav>
     </header>
-<section>
-    <div class="container">
-        <form id="form" action="/">
-            <h1>Registration</h1>
-            <div class="input-control">
-                <label for="username">Username</label>
-                <input id="username" name="username" type="text">
-                <div class="error"></div>
-            </div>
-            <div class="input-control">
-                <label for="email">Email</label>
-                <input id="email" name="email" type="text">
-                <div class="error"></div>
-            </div>
-            <div class="input-control">
-                <label for="password">Password</label>
-                <input id="password"name="password" type="password">
-                <div class="error"></div>
-            </div>
-            <div class="input-control">
-                <label for="password2">Password again</label>
-                <input id="password2"name="password2" type="password">
-                <div class="error"></div>
-            </div>
-            <button type="submit">Sign Up</button>
-        </form>
-    </div>
-    
-</section>
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-6">
+                    <form id="form" action="/" novalidate>
+                        <h1>Registration</h1>
+                        <div class="input-control">
+                            <label for="username">Username</label>
+                            <input id="username" name="username" type="text">
+                            <div class="error"></div>
+                        </div>
+                        <div class="input-control">
+                            <label for="email">Email</label>
+                            <input id="email" name="email" type="text">
+                            <div class="error"></div>
+                        </div>
+                        <div class="input-control">
+                            <label for="password">Password</label>
+                            <input id="password" name="password" type="password">
+                            <div class="error"></div>
+                        </div>
+                        <div class="input-control">
+                            <label for="password2">Password again</label>
+                            <input id="password2" name="password2" type="password">
+                            <div class="error"></div>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Sign Up</button>
+                    </form>
+                </div>
+                <div class="col-xl-6">
+                    <h2>OIKHIOUHOIUH</h2>
+
+                    <label>Votre Message</label>
+                    <div class="input-control">
+                        <textarea  name="message" placeholder="Entrer votre message" required="required"
+                            id="message2" form="form" ></textarea>
+                            <div class="error"></div>
+                    </div>
+
+
+                </div>
+                <script src="./script/validation.js"></script>
+
+    </section>
 
     <footer>
         <div class="container">
