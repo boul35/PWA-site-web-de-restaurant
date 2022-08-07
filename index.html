@@ -18,6 +18,17 @@
     <meta name="description" content="Burger Shop website web apple-mobile-web-app-capable">
     <link rel="stylesheet" type="text/css" href="css/normalize.css"/>
 	<link rel="stylesheet" type="text/css" href="css/style.css"/>
+    <script>
+        // Register service worker.
+        if ('serviceWorker' in navigator) {
+          window.addEventListener('load', () => {
+            navigator.serviceWorker.register('service-worker.js')
+              .then((reg) => {
+                console.log('Notre service worker est chargé!.', reg);
+              });
+          });
+        }
+      </script>
     <title>Restaurant Le Bistro à Burger</title>
     
     <script src="https://kit.fontawesome.com/742e442523.js" crossorigin="anonymous"></script>
