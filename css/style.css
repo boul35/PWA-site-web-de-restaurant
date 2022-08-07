@@ -64,6 +64,10 @@ footer {
   color: #5ad1ef;
 }
 
+.card {
+  border: solid 5px #5F4664 !important;
+}
+
 .restaurant__text {
   color: #4ac4e2;
 }
@@ -135,4 +139,27 @@ a, a:hover, a:focus, a:active {
 
 .chefs__title {
   color: white;
-}/*# sourceMappingURL=style.css.map */
+}
+
+.burger {
+  color: #00718c;
+}
+
+.burger-logo {
+  width: 30px;
+  height: 30px;
+  margin: 0.5rem;
+}
+
+.mission {
+  background: linear-gradient(162deg, rgb(175, 207, 124) 0%, rgb(175, 207, 124) 100%);
+}
+
+.mission__image {
+  border-radius: 22rem;
+  border: solid 3px #06a2bf;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+/*# sourceMappingURL=style.css.map */
