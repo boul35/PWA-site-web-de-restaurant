@@ -98,7 +98,7 @@ a, a:hover, a:focus, a:active {
         background-image: url(../assets/images/background1.png);
       
         /* Full height */
-        height: 80vh; 
+        height: 100vh; 
       
         /* Create the parallax scrolling effect */
         background-attachment: fixed;
@@ -107,13 +107,11 @@ a, a:hover, a:focus, a:active {
         background-size: cover;
         display: grid;
         place-content: center;
-        padding: 0%;
-        width: 100%;
         
   
   
-  
   }
+
 
 #potatoe {
 
