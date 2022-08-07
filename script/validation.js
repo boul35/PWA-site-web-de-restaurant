@@ -44,36 +44,36 @@ const validateInputs = () => {
     const message2Value = message2.value.trim();
 
     if(usernameValue === '') {
-        setError(username, 'Username is required');
+        setError(username, 'nom et prenom sont requis');
     } else {
         setSuccess(username);
     }
 
     if(emailValue === '') {
-        setError(email, 'Email is required');
+        setError(email, 'Un courriel est requis');
     } else if (!isValidEmail(emailValue)) {
-        setError(email, 'Provide a valid email address');
+        setError(email, 'SVP mettre une adresse courriel valide');
     } else {
         setSuccess(email);
     }
 
     if(passwordValue === '') {
-        setError(password, 'Password is required');
+        setError(password, 'Un mot de passe est requis');
     } else if (passwordValue.length < 8 ) {
-        setError(password, 'Password must be at least 8 character.')
+        setError(password, 'Le mot de passe doit avoir 8 caractères.')
     } else {
         setSuccess(password);
     }
 
     if(password2Value === '') {
-        setError(password2, 'Please confirm your password');
+        setError(password2, 'Merci de confirmer votre mot de passe');
     } else if (password2Value !== passwordValue) {
-        setError(password2, "Passwords doesn't match");
+        setError(password2, "Mot de passe ne corresponde pas");
     } else {
         setSuccess(password2);
     }
     if(message2Value === '') {
-        setError(message2, 'Username is required');
+        setError(message2, 'Entrez un message');
     } else {
         setSuccess(message2);
     }
