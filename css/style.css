@@ -62,6 +62,12 @@ textarea {
   padding-bottom: 2rem;
 }
 
+.form {
+  background: rgb(40, 43, 58);
+  background: radial-gradient(circle, rgb(40, 43, 58) 0%, rgb(95, 70, 100) 47%, rgb(27, 31, 44) 98%);
+  color: white;
+}
+
 .restaurant {
   padding-top: 2rem;
   padding-bottom: 2rem;
@@ -175,4 +181,27 @@ a, a:hover, a:focus, a:active {
 
 .nav-item:hover {
   color: white;
+}
+
+.planete {
+  background: linear-gradient(162deg, rgb(175, 207, 124) 0%, rgb(175, 207, 124) 100%);
+}
+
+.planete__left {
+  background-image: url(../assets/images/planete.jpg);
+  height: 28.188rem;
+}
+
+.planete__right {
+  background-image: url(../assets/images/planete3.jpg);
+  height: 28.188rem;
+}
+
+.planete__text {
+  color: white;
+  justify-content: center;
+}
+
+.planete__text2 {
+  color: #112A46;
 }/*# sourceMappingURL=style.css.map */

@@ -161,3 +161,33 @@ a, a:hover, a:focus, a:active {
     color: white;
     
 }
+.planete {
+    background: linear-gradient(162deg, rgba(175,207,124,1) 0%, rgba(175,207,124,1) 100%);
+}
+.planete__left {
+
+    background-image: url(../assets/images/planete.jpg);
+    height: 28.188rem;
+    
+    
+}
+
+.planete__right {
+
+    background-image: url(../assets/images/planete3.jpg);
+    height: 28.188rem;
+    
+    
+}
+
+.planete__text {
+
+    color: white;
+    justify-content: center;
+}
+
+.planete__text2 {
+
+
+    color: #112A46;
+}

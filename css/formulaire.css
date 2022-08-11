@@ -60,4 +60,10 @@ textarea {
 
 .form__btn {
   padding-bottom: 2rem;
+}
+
+.form {
+  background: rgb(40, 43, 58);
+  background: radial-gradient(circle, rgb(40, 43, 58) 0%, rgb(95, 70, 100) 47%, rgb(27, 31, 44) 98%);
+  color: white;
 }/*# sourceMappingURL=formulaire.css.map */
