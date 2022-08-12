@@ -245,6 +245,7 @@ a, a:hover, a:focus, a:active {
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
+  font-size: 2vw;
 }
 
 .menuWhite {
@@ -253,5 +254,10 @@ a, a:hover, a:focus, a:active {
 
 .menu__third2 {
   margin-top: 2rem;
+}
+
+.menu__text {
+  color: white;
+  font-size: 2vw;
 }
 /*# sourceMappingURL=style.css.map */
