@@ -208,29 +208,43 @@ a, a:hover, a:focus, a:active {
 
 .menu__left {
   background-image: url(../assets/images/burger7.jpg);
-  height: 40rem;
+  height: 50vh;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .menu__right {
   background-image: url(../assets/images/burger8.png);
   background-repeat: no-repeat;
   background-position: center;
-  height: 40rem;
+  height: 50vh;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
 }
 
 .menu__half1 {
   background-image: url(../assets/images/veganBurger.jpg);
-  height: 40rem;
+  height: 50vh;
   width: 100%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
 }
 
 .menu__half2 {
   background-color: #253748;
-  height: 40rem;
+  height: 50vh;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
 }
 
 .menu__halftext {
   color: #028738;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
 }
 
 .menuWhite {
@@ -239,4 +253,5 @@ a, a:hover, a:focus, a:active {
 
 .menu__third2 {
   margin-top: 2rem;
-}/*# sourceMappingURL=style.css.map */
+}
+/*# sourceMappingURL=style.css.map */
