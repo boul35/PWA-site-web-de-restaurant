@@ -206,6 +206,16 @@ a, a:hover, a:focus, a:active {
   color: #112A46;
 }
 
+.planete__left {
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.planete__right {
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 .menu__left {
   background-image: url(../assets/images/burger7.jpg);
   height: 50vh;
