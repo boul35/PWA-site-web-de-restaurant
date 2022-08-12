@@ -176,6 +176,7 @@ a, a:hover, a:focus, a:active {
   border: solid 3px #06a2bf;
   margin-top: 2rem;
   margin-bottom: 2rem;
+  width: 100%;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
@@ -270,5 +271,9 @@ a, a:hover, a:focus, a:active {
 .menu__text {
   color: white;
   justify-content: center;
+}
+
+.burger__text {
+  font-size: 15vh;
 }
 /*# sourceMappingURL=style.css.map */
