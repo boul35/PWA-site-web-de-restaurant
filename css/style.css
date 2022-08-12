@@ -201,12 +201,10 @@ a, a:hover, a:focus, a:active {
 .planete__text {
   color: white;
   justify-content: center;
-  font-size: 1rem;
 }
 
 .planete__text2 {
   color: #112A46;
-  font-size: 1rem;
 }
 
 .planete__left {
