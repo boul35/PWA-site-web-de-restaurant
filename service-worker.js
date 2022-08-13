@@ -1,7 +1,7 @@
 //Update cache names any time any of the cached files change.
 const CACHE_NAME = 'static-cache-v11';
 //Add list of files to cache here.
-const FILES_TO_CACHE = ['index.html'];
+const FILES_TO_CACHE = ['index.html','apropos.html','menu.html','reservation.html','assets/images/burger-icon.png','./assets/images/hamburger1.jpg'];
 self.addEventListener('install', (evt) => {
     console.log('[ServiceWorker] Install');
     // Precache static resources here.
