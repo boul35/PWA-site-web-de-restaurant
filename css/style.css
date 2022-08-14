@@ -158,7 +158,7 @@ a, a:hover, a:focus, a:active {
 }
 
 .burger {
-  color: #00718c;
+  color: black;
 }
 
 .burger-logo {
@@ -267,11 +267,54 @@ a, a:hover, a:focus, a:active {
 }
 
 .menu__text {
-  color: white;
+  color: black;
   justify-content: center;
 }
 
 .burger__text {
   font-size: 15vh;
+}
+
+.planete__text2 {
+  color: black;
+}
+
+.mission__text {
+  margin: 1rem;
+}
+
+.btn {
+  margin-bottom: 2rem;
+}
+
+.from__rating {
+  margin-bottom: 2rem;
+}
+
+.menuWhite__burger1 {
+  background: url(../assets/images/burger10.webp);
+  height: 50vh;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  text-align: center;
+}
+
+.menuWhite__burger2 {
+  background: url(../assets/images/burger-11.webp);
+  height: 50vh;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  text-align: center;
+}
+
+.menuWhite__burger3 {
+  background: url(../assets/images/hotdog.webp);
+  height: 50vh;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  text-align: center;
 }
 /*# sourceMappingURL=style.css.map */
