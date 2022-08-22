@@ -9,12 +9,7 @@ const message2 = document.getElementById('message2');
 
 
 
-form.addEventListener('submit', e => {
-    e.preventDefault();
 
-    validateInputs();
-  
-});
 
 const setError = (element, message) => {
     const inputControl = element.parentElement;
